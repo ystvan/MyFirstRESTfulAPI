@@ -12,5 +12,29 @@ namespace MyFirstRESTfulAPI
     // NOTE: In order to launch WCF Test Client for testing this service, please select BookService.svc or BookService.svc.cs at the Solution Explorer and start debugging.
     public class BookService : IBookService
     {
+        public string AddBook(Book book, string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string DeleteBook(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Book GetBookById(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Book> GetBookList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string UpdateBook(Book book, string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
