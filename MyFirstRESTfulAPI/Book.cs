@@ -26,8 +26,8 @@ namespace MyFirstRESTfulAPI
         List<Book> GetAllBooks();
         Book GetBookById(int id);
         Book AddNewBook(Book item);
-        bool DeleteABook(int id);
-        bool UpdateABook(Book item);
+        bool DeleteBook(int id);
+        bool UpdateBook(Book item);
     }
 
     public class BookRepository : IBookRepository
