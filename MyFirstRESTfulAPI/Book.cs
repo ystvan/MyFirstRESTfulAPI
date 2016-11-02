@@ -18,6 +18,5 @@ namespace MyFirstRESTfulAPI
 
         [DataMember]
         public string ISBN { get; set; }
-
     }
 }
