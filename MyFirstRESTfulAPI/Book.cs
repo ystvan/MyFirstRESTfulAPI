@@ -20,4 +20,13 @@ namespace MyFirstRESTfulAPI
         public string ISBN { get; set; }
 
     }
+
+    public interface IBookRepository
+    {
+        List<Book> GetAllBooks();
+        Book GetBookById(int id);
+        Book AddNewBook(Book item);
+        bool DeleteABook(int id);
+        bool UpdateABook(Book item);
+    }
 }
